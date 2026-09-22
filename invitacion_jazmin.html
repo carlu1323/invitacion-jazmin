@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#b9e4f5">
+<title>Mis 15 · Jazmín</title>
+<style>
+:root{--sky:#b9e4f5;--sky2:#eaf8fd;--wood:#eee4d4;--cream:#fbf8f1;--ink:#24343b;--line:#b9b0a3;--accent:#4e9bc0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,serif}.page{max-width:620px;margin:auto;background:var(--cream);overflow:hidden}
+section{padding:28px 18px}.wood{background:repeating-linear-gradient(90deg,rgba(110,85,55,.035) 0 2px,transparent 2px 72px),linear-gradient(90deg,#f8f2e8,#ece1d0,#faf5ec)}
+.card{background:rgba(255,255,255,.82);border:1px solid rgba(80,75,65,.25);border-radius:24px;padding:25px 19px;box-shadow:0 10px 30px rgba(80,70,55,.09)}
+.hero{min-height:620px;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(160deg,#f8f3e9 0%,#dff4fc 48%,#f8f3e9 100%);position:relative}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(78,155,192,.35);border-radius:50%;width:260px;height:260px}.hero:before{top:-90px;left:-110px}.hero:after{bottom:-120px;right:-100px}
+.hero-inner{position:relative;z-index:1;padding:25px}.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px}.hero h1{font-family:cursive;font-size:76px;font-weight:400;margin:18px 0 4px;color:#3d8eaf}.hero .sub{font-size:22px;margin:0 0 26px}.date{font-size:15px;letter-spacing:.12em}.open{display:inline-block;margin-top:30px;padding:14px 25px;border-radius:999px;background:var(--sky);color:#244b5d;text-decoration:none;font-weight:bold}
+h2{font-family:cursive;font-size:39px;font-weight:500;text-align:center;margin:2px 0 17px;color:#3d8eaf}p{line-height:1.55;text-align:center}.count{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.unit{background:#fff;border-radius:15px;padding:12px 4px}.num{font-size:28px;font-weight:bold;color:#317f9f}.label{font-size:10px;letter-spacing:.08em}.btn{display:block;text-align:center;text-decoration:none;border:0;background:#68b5d9;color:white;padding:14px 16px;border-radius:999px;font-weight:bold;margin:15px 0;cursor:pointer;font-family:inherit}.btn.secondary{background:var(--sky2);color:#27566b}.note{font-size:13px;color:#68737a}.alias{font-size:24px;letter-spacing:.04em;font-weight:bold;color:#317f9f;text-align:center;background:#eef9fd;border-radius:15px;padding:14px;margin:13px 0}
+.guest-list{display:grid;gap:7px;max-height:560px;overflow:auto;padding-right:2px}.guest{display:flex;align-items:center;gap:10px;padding:10px 9px;border-bottom:1px solid #ded7cb;background:rgba(255,255,255,.5);border-radius:10px}.guest input{width:19px;height:19px;accent-color:#67b5d7}.guest input:checked+span{text-decoration:line-through;opacity:.55}.guest span{font-size:14px}.music{background:#eaf8fe}.heart{text-align:center;font-size:30px;color:#6baec8}.spotify{background:#eef9fd}
+footer{text-align:center;padding:38px 20px 55px;background:#c5e9f7}footer h2{margin-bottom:5px}.small{font-size:12px}
+@media(max-width:390px){.hero h1{font-size:64px}.count{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="page">
+<section class="hero" id="inicio"><div class="hero-inner">
+<div class="eyebrow">Una noche para recordar</div><h1>Jazmín</h1><p class="sub">Mis 15 años</p><div class="date">14 · NOVIEMBRE · 2026 · 21:00 HS</div>
+<a class="open" href="#contador">Abrir mi invitación ✨</a>
+</div></section>
+
+<section class="wood" id="contador"><div class="card"><h2>Faltan...</h2><div class="count">
+<div class="unit"><div class="num" id="days">--</div><div class="label">DÍAS</div></div>
+<div class="unit"><div class="num" id="hours">--</div><div class="label">HORAS</div></div>
+<div class="unit"><div class="num" id="mins">--</div><div class="label">MINUTOS</div></div>
+<div class="unit"><div class="num" id="secs">--</div><div class="label">SEGUNDOS</div></div>
+</div><p>Estoy preparando una noche muy especial y quiero compartirla con vos. 🩵</p></div></section>
+
+<section class="wood" id="confirmacion"><div class="card"><h2>Confirmá tu asistencia</h2><p>Para mí es muy importante saber si vas a acompañarme en esta noche tan especial. ♡</p>
+<a class="btn" href="https://wa.me/542964469110?text=Hola%20Jazm%C3%ADn%2C%20confirmo%20mi%20asistencia%20a%20tus%2015.%20Mi%20nombre%20es%3A%20" target="_blank" rel="noopener">Confirmar por WhatsApp 💬</a>
+<p class="note">También podés comunicarte al 2964 469110.</p></div></section>
+
+<section class="wood" id="invitados"><div class="card"><h2>Mis invitados</h2><p class="note">Buscá tu nombre y marcá el ✓ cuando confirmes tu asistencia.</p><div class="guest-list">
+<label class="guest"><input type="checkbox"><span>Balsamello, André</span></label><label class="guest"><input type="checkbox"><span>Balsamello, Donato</span></label><label class="guest"><input type="checkbox"><span>Balsamello, Pablo</span></label><label class="guest"><input type="checkbox"><span>Balsamello, Rafael</span></label><label class="guest"><input type="checkbox"><span>Balsamello, Silvana</span></label><label class="guest"><input type="checkbox"><span>Barria, Yamila</span></label><label class="guest"><input type="checkbox"><span>Basualdo, Analía</span></label><label class="guest"><input type="checkbox"><span>Benítez, Ailén</span></label><label class="guest"><input type="checkbox"><span>Christensen, Ana</span></label><label class="guest"><input type="checkbox"><span>Ducant, Carolina</span></label><label class="guest"><input type="checkbox"><span>Ducant, Máximo</span></label><label class="guest"><input type="checkbox"><span>Faganello, Bianca</span></label><label class="guest"><input type="checkbox"><span>Faganello, Bruno</span></label><label class="guest"><input type="checkbox"><span>Fritz, Lorena</span></label><label class="guest"><input type="checkbox"><span>Fritz, Lorena</span></label><label class="guest"><input type="checkbox"><span>Gardey, Andrés</span></label><label class="guest"><input type="checkbox"><span>Gardey, Emanuel</span></label><label class="guest"><input type="checkbox"><span>Hernández, Camilo</span></label><label class="guest"><input type="checkbox"><span>Jacobsen, Eilen</span></label><label class="guest"><input type="checkbox"><span>Jacobsen, Ezequiel</span></label><label class="guest"><input type="checkbox"><span>Jacobsen, Gunnar</span></label><label class="guest"><input type="checkbox"><span>Jacobsen, Micaela</span></label><label class="guest"><input type="checkbox"><span>Luffi, Beltrán</span></label><label class="guest"><input type="checkbox"><span>Luffi, Ethan</span></label><label class="guest"><input type="checkbox"><span>Luffi, Shelton</span></label><label class="guest"><input type="checkbox"><span>Luffi, Tiziana</span></label><label class="guest"><input type="checkbox"><span>Marchetti, Ariel</span></label><label class="guest"><input type="checkbox"><span>Marchetti, Eliseo</span></label><label class="guest"><input type="checkbox"><span>Marchetti, Faustino</span></label><label class="guest"><input type="checkbox"><span>Marchetti, Ivana</span></label><label class="guest"><input type="checkbox"><span>María, Luis Orofino</span></label><label class="guest"><input type="checkbox"><span>Meretta, Lautaro</span></label><label class="guest"><input type="checkbox"><span>Molina, Daniel</span></label><label class="guest"><input type="checkbox"><span>Orvegoso, Alejandro</span></label><label class="guest"><input type="checkbox"><span>Pontín, Javier</span></label><label class="guest"><input type="checkbox"><span>Pontín, Juan</span></label><label class="guest"><input type="checkbox"><span>Pontín, Marianela</span></label><label class="guest"><input type="checkbox"><span>Quintas, Diego</span></label><label class="guest"><input type="checkbox"><span>Quintas, Emilia</span></label><label class="guest"><input type="checkbox"><span>Quintas, Jeremías</span></label><label class="guest"><input type="checkbox"><span>Quintas, Sofía</span></label><label class="guest"><input type="checkbox"><span>Roteño, Graciela</span></label><label class="guest"><input type="checkbox"><span>Roteño, Luis</span></label><label class="guest"><input type="checkbox"><span>Sánchez, Aldana</span></label><label class="guest"><input type="checkbox"><span>Sielas, Almendra</span></label><label class="guest"><input type="checkbox"><span>Sielas, Camila</span></label><label class="guest"><input type="checkbox"><span>Sielas, Carlos</span></label><label class="guest"><input type="checkbox"><span>Sielas, Graciela</span></label><label class="guest"><input type="checkbox"><span>Sielas, Gustavo</span></label><label class="guest"><input type="checkbox"><span>Sielas, Nicolás</span></label><label class="guest"><input type="checkbox"><span>Sielas, Noemí</span></label><label class="guest"><input type="checkbox"><span>Sielas, Renzo</span></label><label class="guest"><input type="checkbox"><span>Sielas, Vicente</span></label><label class="guest"><input type="checkbox"><span>Sielas, Victoriana</span></label><label class="guest"><input type="checkbox"><span>Tomansen, Laura</span></label><label class="guest"><input type="checkbox"><span>Verónica, Ibauza</span></label>
+</div></div></section>
+
+<section class="wood" id="fotos"><div class="card"><div class="heart">📷</div><h2>Mis recuerdos</h2><p>¿Sacaste fotos conmigo o durante mi fiesta? Compartilas para que podamos guardar todos esos recuerdos.</p>
+<a class="btn" href="https://drive.google.com/drive/folders/1iPjg6hk2YqDOYYMiKPpVrFLm6dHUlz4z" target="_blank" rel="noopener">Compartir mis fotos 📷</a><p class="note">Podés subir tus fotos a mi carpeta de recuerdos.</p></div></section>
+
+<section class="wood" id="regalo"><div class="card"><h2>Un regalo para mí</h2><p>Si querés hacerme un regalo, podés hacerlo mediante transferencia.</p><div class="alias">Jazu.1323</div><button class="btn" type="button" onclick="copyAlias()">Copiar alias 💙</button><p class="note" id="copyMsg">Tocá el botón para copiarlo.</p></div></section>
+
+<section class="wood" id="ubicacion"><div class="card"><h2>¿Dónde nos encontramos?</h2><p>Te espero en<br><strong>Prado Español · San Cayetano</strong></p>
+<a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Prado+Espa%C3%B1ol+San+Cayetano" target="_blank" rel="noopener">Ver ubicación 📍</a></div></section>
+
+<section class="spotify"><div class="card"><h2>Elegí una canción 🎶</h2><p>Sumá una canción a mi playlist colaborativa para que la música también sea parte de mis 15.</p>
+<a class="btn" href="https://open.spotify.com/playlist/0efOT9U9fYcqJxDfONDDAC" target="_blank" rel="noopener">Agregar canción en Spotify 🎵</a></div></section>
+
+<footer><h2>Gracias ♡</h2><p>Por acompañarme y ser parte de este día tan especial para mí.</p><p style="font-family:cursive;font-size:34px">Jazmín</p><p class="small">14 de noviembre · 21:00 hs · Prado Español · San Cayetano</p></footer>
+</div>
+<script>
+const target=new Date("2026-11-14T21:00:00-03:00").getTime();
+function tick(){const d=Math.max(0,target-Date.now());days.textContent=Math.floor(d/86400000);hours.textContent=Math.floor(d/3600000)%24;mins.textContent=Math.floor(d/60000)%60;secs.textContent=Math.floor(d/1000)%60}
+tick();setInterval(tick,1000);
+function copyAlias(){navigator.clipboard.writeText("Jazu.1323").then(()=>copyMsg.textContent="¡Alias copiado! 💙").catch(()=>copyMsg.textContent="Alias: Jazu.1323")}
+</script>
+</body></html>
